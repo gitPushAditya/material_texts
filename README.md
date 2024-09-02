@@ -21,6 +21,7 @@ This package includes the following 15 text widgets, each tailored for specific 
 ### Display Styles
 
 - **DisplayLarge**
+
   - textColor: Theme.of(context).colorScheme.onPrimaryContainer
   - fontSize: 57
   - fontWeight: FontWeight.w400
@@ -28,6 +29,7 @@ This package includes the following 15 text widgets, each tailored for specific 
   - lineHeight = 1.12
 
 - **DisplayMedium**
+
   - textColor: Theme.of(context).colorScheme.onPrimaryContainer
   - fontSize: 45
   - fontWeight: FontWeight.w400
@@ -44,6 +46,7 @@ This package includes the following 15 text widgets, each tailored for specific 
 ### Headline Styles
 
 - **HeadlineLarge**
+
   - textColor: Theme.of(context).colorScheme.onPrimaryContainer
   - fontSize: 32
   - fontWeight: FontWeight.w400
@@ -51,6 +54,7 @@ This package includes the following 15 text widgets, each tailored for specific 
   - lineHeight = 1.25
 
 - **HeadlineMedium**
+
   - textColor: Theme.of(context).colorScheme.onPrimaryContainer
   - fontSize: 28
   - fontWeight: FontWeight.w400
@@ -67,6 +71,7 @@ This package includes the following 15 text widgets, each tailored for specific 
 ### Title Styles
 
 - **TitleLarge**
+
   - textColor: Theme.of(context).colorScheme.onPrimaryContainer
   - fontSize: 22
   - fontWeight: FontWeight.w400
@@ -74,6 +79,7 @@ This package includes the following 15 text widgets, each tailored for specific 
   - lineHeight = 1.27
 
 - **TitleMedium**
+
   - textColor: Theme.of(context).colorScheme.onPrimaryContainer
   - fontSize: 16
   - fontWeight: FontWeight.w500
@@ -90,6 +96,7 @@ This package includes the following 15 text widgets, each tailored for specific 
 ### Body Styles
 
 - **BodyLarge**
+
   - textColor: Theme.of(context).colorScheme.onPrimaryContainer
   - fontSize: 16
   - fontWeight: FontWeight.w400
@@ -97,6 +104,7 @@ This package includes the following 15 text widgets, each tailored for specific 
   - lineHeight = 1.5
 
 - **BodyMedium**
+
   - textColor: Theme.of(context).colorScheme.onPrimaryContainer
   - fontSize: 14
   - fontWeight: FontWeight.w400
@@ -113,6 +121,7 @@ This package includes the following 15 text widgets, each tailored for specific 
 ### Label Styles
 
 - **LabelLarge**
+
   - textColor: Theme.of(context).colorScheme.onPrimaryContainer
   - fontSize: 14
   - fontWeight: FontWeight.w500
@@ -120,6 +129,7 @@ This package includes the following 15 text widgets, each tailored for specific 
   - lineHeight = 1.42
 
 - **LabelMedium**
+
   - textColor: Theme.of(context).colorScheme.onPrimaryContainer
   - fontSize: 12
   - fontWeight: FontWeight.w500
@@ -132,8 +142,6 @@ This package includes the following 15 text widgets, each tailored for specific 
   - fontWeight: FontWeight.w500
   - letterSpacing = 0.5
   - lineHeight = 1.45
-
-
 
 ## Features
 
@@ -155,7 +163,7 @@ Then, import it into your Dart code:
 ```yaml
 import 'package:material_texts/material_texts.dart';
 ```
-  
+
 ## Usage
 
 Here’s a simple example of how to use a DisplayLarge widget in your app:
@@ -225,9 +233,6 @@ class MyApp extends StatelessWidget {
 
 ```
 
-
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Contact me: adiofficial3010@gmail.com

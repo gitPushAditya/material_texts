@@ -20,7 +20,7 @@ repository: https://github.com/gitPushAditya/material_texts
 
 documentation: https://github.com/gitPushAditya/material_texts#README
 
-publish_to: "https://pub.dev"
+publish_to: https://pub.dev
 
 
 
