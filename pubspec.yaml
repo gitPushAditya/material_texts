@@ -1,0 +1,21 @@
+name: material_texts
+description: "Material Texts is a package that simplifies text styling in Flutter by providing 15 different customizable text widgets based on Material Design typography."
+version: 1.0.0
+homepage:
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
