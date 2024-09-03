@@ -63,7 +63,7 @@ class TitleMedium extends StatelessWidget {
   final TextHeightBehavior? textHeightBehavior;
 
   /// Creates a [TitleMedium] widget with customizable text properties.
-  /// 
+  ///
   /// The [text] parameter is required and specifies the content of the text.
   const TitleMedium(
     this.text, {

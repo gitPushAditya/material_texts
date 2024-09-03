@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 /// A customizable text widget that follows the HeadlineLarge style as per Material Design.
-/// 
-/// This widget is a stateless wrapper around the [Text] widget, providing a set of 
+///
+/// This widget is a stateless wrapper around the [Text] widget, providing a set of
 /// customizable properties such as font size, color, weight, alignment, and more.
 ///
 /// Example usage:
@@ -62,7 +62,7 @@ class HeadlineLarge extends StatelessWidget {
   final TextHeightBehavior? textHeightBehavior;
 
   /// Creates a [HeadlineLarge] widget with customizable text properties.
-  /// 
+  ///
   /// The [text] parameter is required and specifies the content of the text.
   const HeadlineLarge(
     this.text, {

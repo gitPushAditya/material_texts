@@ -22,3 +22,9 @@ New features in every text widget
 - softWrap = true
 - textShadows
 - textHeightBehavior
+
+## [1.1.1] - 2024-09-03
+
+### Added
+
+- New examples and better documentation.
