@@ -1,3 +1,29 @@
+/// A Dart package for customizable text styles based on Material Design.
+///
+/// This package provides a collection of text widgets styled according to
+/// Material Design principles. You can use these widgets to maintain
+/// consistency in typography across your Flutter application.
+///
+/// The available text styles include:
+/// - Body Large
+/// - Body Medium
+/// - Body Small
+/// - Display Large
+/// - Display Medium
+/// - Display Small
+/// - Headline Large
+/// - Headline Medium
+/// - Headline Small
+/// - Label Large
+/// - Label Medium
+/// - Label Small
+/// - Title Large
+/// - Title Medium
+/// - Title Small
+///
+/// To use a specific text style, import the package and use the provided
+/// widgets in your Flutter app.
+
 library material_texts;
 
 export 'src/body_large.dart';

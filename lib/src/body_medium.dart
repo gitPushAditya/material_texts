@@ -1,22 +1,69 @@
 import 'package:flutter/material.dart';
 
+/// A customizable text widget that follows the BodyMedium style as per Material Design.
+///
+/// This widget is a stateless wrapper around the [Text] widget, providing a set of
+/// customizable properties such as font size, color, weight, alignment, and more.
+///
+/// Example usage:
+/// ```dart
+/// BodyMedium(
+///   'Hello, World!',
+///   fontSize: 14,
+///   textColor: Colors.grey,
+///   fontWeight: FontWeight.w500,
+///   textAlign: TextAlign.center,
+/// )
+/// ```
 class BodyMedium extends StatelessWidget {
+  /// The text content to be displayed.
   final String text;
+
+  /// The size of the text, defaults to 14.0.
   final double fontSize;
+
+  /// The color of the text. If not provided, defaults to `onPrimaryContainer` from the [ThemeData].
   final Color? textColor;
+
+  /// The weight of the font, defaults to `FontWeight.w400`.
   final FontWeight fontWeight;
+
+  /// The spacing between letters, defaults to 0.25.
   final double letterSpacing;
+
+  /// The height of the line, defaults to 1.42.
   final double lineHeight;
+
+  /// The alignment of the text within its container, defaults to `TextAlign.start`.
   final TextAlign textAlign;
+
+  /// The decoration to apply to the text, defaults to `TextDecoration.none`.
   final TextDecoration textDecoration;
+
+  /// The style of the font (e.g., normal or italic), defaults to `FontStyle.normal`.
   final FontStyle fontStyle;
+
+  /// The maximum number of lines for the text to occupy, optional.
   final int? maxLines;
+
+  /// How visual overflow should be handled, defaults to `TextOverflow.clip`.
   final TextOverflow textOverflow;
+
+  /// The directionality of the text, defaults to `TextDirection.ltr`.
   final TextDirection textDirection;
+
+  /// Whether the text should break at soft line breaks, defaults to `true`.
   final bool softWrap;
+
+  /// The shadows to apply to the text, optional.
   final List<Shadow>? textShadows;
+
+  /// Defines how the height of the text should behave, optional.
   final TextHeightBehavior? textHeightBehavior;
 
+  /// Creates a [BodyMedium] widget with customizable text properties.
+  ///
+  /// The [text] parameter is required and specifies the content of the text.
   const BodyMedium(
     this.text, {
     super.key,

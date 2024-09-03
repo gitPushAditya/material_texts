@@ -16,7 +16,7 @@ This package includes the following 15 text widgets, each tailored for specific 
 
 - **Every Widget have 1st required positional parameter that takes String value for text.**
 
-- **Every Widget have 5 optional named parameter that already has a default value but can be reassigned for customization.**
+- **Every Widget have 14 optional named parameter that already has a default value but can be reassigned for customization.**
 
 ### Display Styles
 
@@ -298,7 +298,7 @@ Then, import it into your Dart code:
 ```yaml
 import 'package:material_texts/material_texts.dart';
 ```
-
+  
 ## Usage
 
 Here’s a simple example of how to use a DisplayLarge widget in your app:
