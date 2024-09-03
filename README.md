@@ -27,6 +27,15 @@ This package includes the following 15 text widgets, each tailored for specific 
   - fontWeight: FontWeight.w400
   - letterSpacing = -0.25
   - lineHeight = 1.12
+  - textAlign = TextAlign.start
+  - textDecoration = TextDecoration.none
+  - fontStyle = FontStyle.normal
+  - maxLines
+  - textOverflow = TextOverflow.clip
+  - textDirection = TextDirection.ltr
+  - softWrap = true
+  - textShadows
+  - textHeightBehavior
 
 - **DisplayMedium**
 
@@ -35,6 +44,15 @@ This package includes the following 15 text widgets, each tailored for specific 
   - fontWeight: FontWeight.w400
   - letterSpacing = 0
   - lineHeight = 1.15
+  - textAlign = TextAlign.start
+  - textDecoration = TextDecoration.none
+  - fontStyle = FontStyle.normal
+  - maxLines
+  - textOverflow = TextOverflow.clip
+  - textDirection = TextDirection.ltr
+  - softWrap = true
+  - textShadows
+  - textHeightBehavior
 
 - **DisplaySmall**
   - textColor: Theme.of(context).colorScheme.onPrimaryContainer
@@ -42,6 +60,15 @@ This package includes the following 15 text widgets, each tailored for specific 
   - fontWeight: FontWeight.w400
   - letterSpacing = 0
   - lineHeight = 1.22
+  - textAlign = TextAlign.start
+  - textDecoration = TextDecoration.none
+  - fontStyle = FontStyle.normal
+  - maxLines
+  - textOverflow = TextOverflow.clip
+  - textDirection = TextDirection.ltr
+  - softWrap = true
+  - textShadows
+  - textHeightBehavior
 
 ### Headline Styles
 
@@ -52,6 +79,15 @@ This package includes the following 15 text widgets, each tailored for specific 
   - fontWeight: FontWeight.w400
   - letterSpacing = 0
   - lineHeight = 1.25
+  - textAlign = TextAlign.start
+  - textDecoration = TextDecoration.none
+  - fontStyle = FontStyle.normal
+  - maxLines
+  - textOverflow = TextOverflow.clip
+  - textDirection = TextDirection.ltr
+  - softWrap = true
+  - textShadows
+  - textHeightBehavior
 
 - **HeadlineMedium**
 
@@ -60,6 +96,15 @@ This package includes the following 15 text widgets, each tailored for specific 
   - fontWeight: FontWeight.w400
   - letterSpacing = 0
   - lineHeight = 1.28
+  - textAlign = TextAlign.start
+  - textDecoration = TextDecoration.none
+  - fontStyle = FontStyle.normal
+  - maxLines
+  - textOverflow = TextOverflow.clip
+  - textDirection = TextDirection.ltr
+  - softWrap = true
+  - textShadows
+  - textHeightBehavior
 
 - **HeadlineSmall**
   - textColor: Theme.of(context).colorScheme.onPrimaryContainer
@@ -67,6 +112,15 @@ This package includes the following 15 text widgets, each tailored for specific 
   - fontWeight: FontWeight.w400
   - letterSpacing = 0
   - lineHeight = 1.33
+  - textAlign = TextAlign.start
+  - textDecoration = TextDecoration.none
+  - fontStyle = FontStyle.normal
+  - maxLines
+  - textOverflow = TextOverflow.clip
+  - textDirection = TextDirection.ltr
+  - softWrap = true
+  - textShadows
+  - textHeightBehavior
 
 ### Title Styles
 
@@ -77,6 +131,15 @@ This package includes the following 15 text widgets, each tailored for specific 
   - fontWeight: FontWeight.w400
   - letterSpacing = 0
   - lineHeight = 1.27
+  - textAlign = TextAlign.start
+  - textDecoration = TextDecoration.none
+  - fontStyle = FontStyle.normal
+  - maxLines
+  - textOverflow = TextOverflow.clip
+  - textDirection = TextDirection.ltr
+  - softWrap = true
+  - textShadows
+  - textHeightBehavior
 
 - **TitleMedium**
 
@@ -85,6 +148,15 @@ This package includes the following 15 text widgets, each tailored for specific 
   - fontWeight: FontWeight.w500
   - letterSpacing = 0.15
   - lineHeight = 1.5
+  - textAlign = TextAlign.start
+  - textDecoration = TextDecoration.none
+  - fontStyle = FontStyle.normal
+  - maxLines
+  - textOverflow = TextOverflow.clip
+  - textDirection = TextDirection.ltr
+  - softWrap = true
+  - textShadows
+  - textHeightBehavior
 
 - **TitleSmall**
   - textColor: Theme.of(context).colorScheme.onPrimaryContainer
@@ -92,6 +164,15 @@ This package includes the following 15 text widgets, each tailored for specific 
   - fontWeight: FontWeight.w500
   - letterSpacing = 0.1
   - lineHeight = 1.4
+  - textAlign = TextAlign.start
+  - textDecoration = TextDecoration.none
+  - fontStyle = FontStyle.normal
+  - maxLines
+  - textOverflow = TextOverflow.clip
+  - textDirection = TextDirection.ltr
+  - softWrap = true
+  - textShadows
+  - textHeightBehavior
 
 ### Body Styles
 
@@ -102,6 +183,15 @@ This package includes the following 15 text widgets, each tailored for specific 
   - fontWeight: FontWeight.w400
   - letterSpacing = 0.5
   - lineHeight = 1.5
+  - textAlign = TextAlign.start
+  - textDecoration = TextDecoration.none
+  - fontStyle = FontStyle.normal
+  - maxLines
+  - textOverflow = TextOverflow.clip
+  - textDirection = TextDirection.ltr
+  - softWrap = true
+  - textShadows
+  - textHeightBehavior
 
 - **BodyMedium**
 
@@ -110,6 +200,15 @@ This package includes the following 15 text widgets, each tailored for specific 
   - fontWeight: FontWeight.w400
   - letterSpacing = 0.25
   - lineHeight = 1.42
+  - textAlign = TextAlign.start
+  - textDecoration = TextDecoration.none
+  - fontStyle = FontStyle.normal
+  - maxLines
+  - textOverflow = TextOverflow.clip
+  - textDirection = TextDirection.ltr
+  - softWrap = true
+  - textShadows
+  - textHeightBehavior
 
 - **BodySmall**
   - textColor: Theme.of(context).colorScheme.onPrimaryContainer
@@ -117,6 +216,15 @@ This package includes the following 15 text widgets, each tailored for specific 
   - fontWeight: FontWeight.w400
   - letterSpacing = 0.4
   - lineHeight = 1.33
+  - textAlign = TextAlign.start
+  - textDecoration = TextDecoration.none
+  - fontStyle = FontStyle.normal
+  - maxLines
+  - textOverflow = TextOverflow.clip
+  - textDirection = TextDirection.ltr
+  - softWrap = true
+  - textShadows
+  - textHeightBehavior
 
 ### Label Styles
 
@@ -127,6 +235,15 @@ This package includes the following 15 text widgets, each tailored for specific 
   - fontWeight: FontWeight.w500
   - letterSpacing = 0.1
   - lineHeight = 1.42
+  - textAlign = TextAlign.start
+  - textDecoration = TextDecoration.none
+  - fontStyle = FontStyle.normal
+  - maxLines
+  - textOverflow = TextOverflow.clip
+  - textDirection = TextDirection.ltr
+  - softWrap = true
+  - textShadows
+  - textHeightBehavior
 
 - **LabelMedium**
 
@@ -135,6 +252,15 @@ This package includes the following 15 text widgets, each tailored for specific 
   - fontWeight: FontWeight.w500
   - letterSpacing = 0.5
   - lineHeight = 1.33
+  - textAlign = TextAlign.start
+  - textDecoration = TextDecoration.none
+  - fontStyle = FontStyle.normal
+  - maxLines
+  - textOverflow = TextOverflow.clip
+  - textDirection = TextDirection.ltr
+  - softWrap = true
+  - textShadows
+  - textHeightBehavior
 
 - **LabelSmall**
   - textColor: Theme.of(context).colorScheme.onPrimaryContainer
@@ -142,6 +268,15 @@ This package includes the following 15 text widgets, each tailored for specific 
   - fontWeight: FontWeight.w500
   - letterSpacing = 0.5
   - lineHeight = 1.45
+  - textAlign = TextAlign.start
+  - textDecoration = TextDecoration.none
+  - fontStyle = FontStyle.normal
+  - maxLines
+  - textOverflow = TextOverflow.clip
+  - textDirection = TextDirection.ltr
+  - softWrap = true
+  - textShadows
+  - textHeightBehavior
 
 ## Features
 

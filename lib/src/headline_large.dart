@@ -7,6 +7,15 @@ class HeadlineLarge extends StatelessWidget {
   final FontWeight fontWeight;
   final double letterSpacing;
   final double lineHeight;
+  final TextAlign textAlign;
+  final TextDecoration textDecoration;
+  final FontStyle fontStyle;
+  final int? maxLines;
+  final TextOverflow textOverflow;
+  final TextDirection textDirection;
+  final bool softWrap;
+  final List<Shadow>? textShadows;
+  final TextHeightBehavior? textHeightBehavior;
 
   const HeadlineLarge(
     this.text, {
@@ -16,6 +25,15 @@ class HeadlineLarge extends StatelessWidget {
     this.fontWeight = FontWeight.w400,
     this.letterSpacing = 0,
     this.lineHeight = 1.25,
+    this.textAlign = TextAlign.start,
+    this.textDecoration = TextDecoration.none,
+    this.fontStyle = FontStyle.normal,
+    this.maxLines,
+    this.textOverflow = TextOverflow.clip,
+    this.textDirection = TextDirection.ltr,
+    this.softWrap = true,
+    this.textShadows,
+    this.textHeightBehavior,
   });
 
   @override
@@ -30,7 +48,16 @@ class HeadlineLarge extends StatelessWidget {
         fontWeight: fontWeight,
         letterSpacing: letterSpacing,
         height: lineHeight,
+        decoration: textDecoration,
+        fontStyle: fontStyle,
+        shadows: textShadows,
       ),
+      textAlign: textAlign,
+      maxLines: maxLines,
+      overflow: textOverflow,
+      textDirection: textDirection,
+      softWrap: softWrap,
+      textHeightBehavior: textHeightBehavior,
     );
   }
 }

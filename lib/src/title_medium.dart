@@ -7,6 +7,15 @@ class TitleMedium extends StatelessWidget {
   final FontWeight fontWeight;
   final double letterSpacing;
   final double lineHeight;
+  final TextAlign textAlign;
+  final TextDecoration textDecoration;
+  final FontStyle fontStyle;
+  final int? maxLines;
+  final TextOverflow textOverflow;
+  final TextDirection textDirection;
+  final bool softWrap;
+  final List<Shadow>? textShadows;
+  final TextHeightBehavior? textHeightBehavior;
 
   const TitleMedium(
     this.text, {
@@ -16,6 +25,15 @@ class TitleMedium extends StatelessWidget {
     this.fontWeight = FontWeight.w500,
     this.letterSpacing = 0.15,
     this.lineHeight = 1.5,
+    this.textAlign = TextAlign.start,
+    this.textDecoration = TextDecoration.none,
+    this.fontStyle = FontStyle.normal,
+    this.maxLines,
+    this.textOverflow = TextOverflow.clip,
+    this.textDirection = TextDirection.ltr,
+    this.softWrap = true,
+    this.textShadows,
+    this.textHeightBehavior,
   });
 
   @override
@@ -30,7 +48,16 @@ class TitleMedium extends StatelessWidget {
         fontWeight: fontWeight,
         letterSpacing: letterSpacing,
         height: lineHeight,
+        decoration: textDecoration,
+        fontStyle: fontStyle,
+        shadows: textShadows,
       ),
+      textAlign: textAlign,
+      maxLines: maxLines,
+      overflow: textOverflow,
+      textDirection: textDirection,
+      softWrap: softWrap,
+      textHeightBehavior: textHeightBehavior,
     );
   }
 }
